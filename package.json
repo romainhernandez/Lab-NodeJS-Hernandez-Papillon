@@ -1,0 +1,8 @@
+{
+	"name": "projetAst",
+	"version": "0.0.1",
+	"description" : "Project for Asynchronous Server Technologies class",
+	"dependencies": {
+		"name": "Lab-NodeJS-Hernandez-Papillon"
+		}
+}
