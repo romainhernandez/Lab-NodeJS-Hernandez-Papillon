@@ -2,6 +2,11 @@
 	"name": "projetAst",
 	"version": "0.0.1",
 	"description" : "Project for Asynchronous Server Technologies class",
+	"repository": {
+		"type": "git",
+		"url" : "git+https://github.com/romainhernandez/Lab-NodeJS-Hernandez-Papillon.git"
+	},
+	"author": "Romain Hernandez & Matthieu Papillon",
 	"dependencies": {
 		"name": "Lab-NodeJS-Hernandez-Papillon"
 		}
