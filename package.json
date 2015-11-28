@@ -7,7 +7,12 @@
 		"url" : "git+https://github.com/romainhernandez/Lab-NodeJS-Hernandez-Papillon.git"
 	},
 	"author": "Romain Hernandez & Matthieu Papillon",
+	"license": "ISC",
 	"dependencies": {
 		"name": "Lab-NodeJS-Hernandez-Papillon"
-		}
+	},
+	"devDependencies" :{
+		"mocha": "^2.3.4",
+		"should": "^7.1.1",
+	}
 }
