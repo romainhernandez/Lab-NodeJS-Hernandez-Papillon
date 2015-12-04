@@ -2,6 +2,10 @@
 	"name": "projetAst",
 	"version": "0.0.1",
 	"description" : "Project for Asynchronous Server Technologies class",
+	"scripts": {
+    "test": "bash bin/test.sh",
+    "start": "bash bin/start.sh"
+  },
 	"repository": {
 		"type": "git",
 		"url" : "git+https://github.com/romainhernandez/Lab-NodeJS-Hernandez-Papillon.git"
@@ -9,10 +13,12 @@
 	"author": "Romain Hernandez & Matthieu Papillon",
 	"license": "ISC",
 	"dependencies": {
-		"name": "Lab-NodeJS-Hernandez-Papillon"
+		"name": "Lab-NodeJS-Hernandez-Papillon",
+		"coffee-script": "^1.10.0"
 	},
 	"devDependencies" :{
 		"mocha": "^2.3.4",
 		"should": "^7.1.1",
+		"coffee-script": "^1.10.0",
 	}
 }
