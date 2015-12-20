@@ -1,2 +1,0 @@
-#!/bin/bash
-mocha test --recursive --compilers coffee:coffee-script/register

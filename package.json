@@ -4,7 +4,8 @@
   "description": "Project for Asynchronous Server Technologies class",
   "scripts": {
     "test": "bash bin/test.sh",
-    "start": "bash bin/start.sh"
+    "start": "bash bin/start.sh",
+		"populatedb": "coffee ./bin/populatedb"
   },
   "repository": {
     "type": "git",

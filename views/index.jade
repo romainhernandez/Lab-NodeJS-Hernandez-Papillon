@@ -11,6 +11,16 @@ block content
       button.btn.btn-success#get-metrics Hello world
       #content
 
+      hr
+      button.btn.btn-primary#add-metric Add a metric
+      form#login(action='/metrics', method="post")
+        #added-metric
+        button.btn.btn-success(type='submit', href='/metrics') Save Batch
+      hr
+
+      a.btn.btn-primary(type='submit', href='/logout') Log out
+      a.btn.btn-primary(type='submit', href='/deleteUser') Delete account
+
   script
     :coffee-script
       $('#get-metrics').click (e) ->
@@ -21,3 +31,16 @@ block content
           for metric in data
             c += "<p>timestamp: #{metric.timestamp}<br/>value: #{metric.value}</p>"
           $('#content').append c
+
+      $('#add-metric').click (e) ->
+        c = ""
+        c += "<div class=\"form-group\">"
+        c += "Metric: "
+        c += "<p><label>Date</label>"
+        c += "<input type=\"date\" name=\"timestamp\"></p>"
+        c += "<p><label>Value</label>"
+        c += "<input type=\"text\" name=\"value\"></p>"
+        c += "<p><label>Id</label>"
+        c += "<input type=\"text\" name=\"id\"></p>"
+        c += "</div>"
+        $('#added-metric').append c
